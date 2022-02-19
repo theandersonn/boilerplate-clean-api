@@ -23,6 +23,12 @@ yarn add husky -D
 # instalar o lint-staged
 yarn add lint-staged -D
 
+# instalar o jest / @types/jest / ts-jest
+yarn add jest @types/jest ts-jest -D
+
+# inicializar configurações do jest
+jest --init
+
 # instalar o express
 yarn add express
 ```
