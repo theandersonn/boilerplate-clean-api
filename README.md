@@ -15,10 +15,12 @@ yarn add sucrase
 yarn add git-commit-msg-linter -D
 
 # configurar eslint e prettier
-https://www.notion.so/ESLint-e-Prettier-Trilha-Node-js-d3f3ef576e7f45dfbbde5c25fa662779#7168e055dc8c4ca18318d707b23c3b96
 
 # instalar o husky
-yarn add husky -D
+yarn add husky@4.0.6 -D
+
+# setar essa config para o kusky
+git config --unset core.hookspath
 
 # instalar o lint-staged
 yarn add lint-staged -D
