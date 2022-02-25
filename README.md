@@ -33,4 +33,13 @@ jest --init
 
 # instalar o express
 yarn add express
+
+# instalar o mongodb
+yarn add mongodb 
+
+# instalar os @types/mongodb
+yarn add @types/mongodb -D 
+
+# instalar o @shelf/jest-mongodb
+yarn add @shelf/jest-mongodb -D
 ```
