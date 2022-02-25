@@ -48,4 +48,7 @@ yarn add supertest -D
 
 # instalar os types do supertest
 yarn add @types/supertest -D
+
+# instalar o fast-glob
+yarn add fast-glob
 ```
