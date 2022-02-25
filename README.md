@@ -42,4 +42,10 @@ yarn add @types/mongodb -D
 
 # instalar o @shelf/jest-mongodb
 yarn add @shelf/jest-mongodb -D
+
+# instalar o supertest
+yarn add supertest -D
+
+# instalar os types do supertest
+yarn add @types/supertest -D
 ```
