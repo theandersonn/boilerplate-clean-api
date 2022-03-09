@@ -13,8 +13,8 @@ describe('Debuger Routes', () => {
   });
 
   beforeEach(async () => {
-    const accountCollection = MongoHelper.getCollection('debuger');
-    await accountCollection.deleteMany({});
+    const debugerCollection = await MongoHelper.getCollection('debuger');
+    await debugerCollection.deleteMany({});
   });
 
   test('Should return data on success', async () => {
