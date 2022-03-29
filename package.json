@@ -6,6 +6,8 @@
   "author": "theandersonn <theandersonn@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "start": "node dist/main/server.js",
+    "build": "rimraf dist && tsc",
     "dev": "sucrase-node src/main/server.ts",
     "jest:clear": "jest --clearCache",
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
@@ -17,7 +19,6 @@
   },
   "dependencies": {
     "express": "^4.17.3",
-    "fast-glob": "^3.2.11",
     "mongodb": "^4.4.0"
   },
   "devDependencies": {
@@ -40,6 +41,7 @@
     "jest": "^27.5.1",
     "lint-staged": "^12.3.4",
     "prettier": "^2.5.1",
+    "rimraf": "^3.0.2",
     "sucrase": "^3.20.3",
     "supertest": "^6.2.2",
     "ts-jest": "^27.1.3",
