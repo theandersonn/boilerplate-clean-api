@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "express": "^4.17.3",
-    "mongodb": "^4.4.0"
+    "mongodb": "^4.5.0"
   },
   "devDependencies": {
     "@shelf/jest-mongodb": "^2.2.0",
@@ -27,12 +27,12 @@
     "@types/jest": "^27.4.0",
     "@types/mongodb": "^4.0.7",
     "@types/supertest": "^2.0.11",
-    "@typescript-eslint/eslint-plugin": "^5.10.0",
-    "@typescript-eslint/parser": "^5.10.0",
+    "@typescript-eslint/eslint-plugin": "^5.18.0",
+    "@typescript-eslint/parser": "^5.18.0",
     "eslint": "^8.7.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-import-helpers": "^1.2.1",
     "eslint-plugin-prettier": "^4.0.0",
@@ -40,7 +40,7 @@
     "husky": "4.0.6",
     "jest": "^27.5.1",
     "lint-staged": "^12.3.4",
-    "prettier": "^2.5.1",
+    "prettier": "^2.6.2",
     "rimraf": "^3.0.2",
     "sucrase": "^3.20.3",
     "supertest": "^6.2.2",
