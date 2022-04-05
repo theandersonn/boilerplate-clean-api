@@ -15,8 +15,7 @@
     "test:unit": "yarn test --watch -c jest-unit-config.js",
     "test:integration": "yarn test --watch -c jest-integration-config.js",
     "test:staged": "yarn test --findRelatedTests",
-    "test:ci": "yarn test --coverage",
-    "prepare": "husky install"
+    "test:ci": "yarn test --coverage"
   },
   "dependencies": {
     "express": "^4.17.3",
@@ -38,7 +37,7 @@
     "eslint-plugin-import-helpers": "^1.2.1",
     "eslint-plugin-prettier": "^4.0.0",
     "git-commit-msg-linter": "^4.0.7",
-    "husky": "^7.0.0",
+    "husky": "^4.0.6",
     "jest": "^27.5.1",
     "lint-staged": "^12.3.4",
     "prettier": "^2.6.2",
