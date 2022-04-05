@@ -20,6 +20,9 @@
     "prettier"
   ],
   "rules": {
+    "no-useless-constructor": 0,
+    "@typescript-eslint/no-useless-constructor": 0,
+    "no-restricted-syntax": ["error", "ForInStatement", "LabeledStatement", "WithStatement"],
     "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
     "@typescript-eslint/no-explicit-any": "off",
     "class-methods-use-this": "off",
