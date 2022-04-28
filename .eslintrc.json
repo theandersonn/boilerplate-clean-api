@@ -20,6 +20,8 @@
     "prettier"
   ],
   "rules": {
+    "max-classes-per-file": "off",
+    "no-promise-executor-return": "off",
     "no-useless-constructor": 0,
     "@typescript-eslint/no-useless-constructor": 0,
     "no-restricted-syntax": ["error", "ForInStatement", "LabeledStatement", "WithStatement"],
