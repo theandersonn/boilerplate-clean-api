@@ -5295,11 +5295,12 @@ strnum@^1.0.5:
   resolved "https://registry.yarnpkg.com/strnum/-/strnum-1.0.5.tgz#5c4e829fe15ad4ff0d20c3db5ac97b73c9b072db"
   integrity sha512-J8bbNyKKXl5qYcR36TIO8W3mVGVHrmmxsd5PAItGkmyzwJvybiw2IVq5nqd0i4LSNSkB/sx9VHllbfFdr9k1JA==
 
-sucrase@^3.29.0:
-  version "3.29.0"
-  resolved "https://registry.yarnpkg.com/sucrase/-/sucrase-3.29.0.tgz#3207c5bc1b980fdae1e539df3f8a8a518236da7d"
-  integrity sha512-bZPAuGA5SdFHuzqIhTAqt9fvNEo9rESqXIG3oiKdF8K4UmkQxC4KlNL3lVyAErXp+mPvUqZ5l13qx6TrDIGf3A==
+sucrase@^3.32.0:
+  version "3.32.0"
+  resolved "https://registry.yarnpkg.com/sucrase/-/sucrase-3.32.0.tgz#c4a95e0f1e18b6847127258a75cf360bc568d4a7"
+  integrity sha512-ydQOU34rpSyj2TGyz4D2p8rbktIOZ8QY9s+DGLvFU1i5pWJE8vkpruCjGCMHsdXwnD7JDcS+noSwM/a7zyNFDQ==
   dependencies:
+    "@jridgewell/gen-mapping" "^0.3.2"
     commander "^4.0.0"
     glob "7.1.6"
     lines-and-columns "^1.1.6"
